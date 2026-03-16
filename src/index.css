@@ -1,0 +1,26 @@
+:root {
+    --green-colour: rgba(10, 140, 0, 1);
+    --gradient-colour: rgba(0, 0, 0, 0.6);
+    --footer-colour: rgba(15, 23, 42, 1);
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', 'Dm Sans', 'Poppins', sans-serif;
+    background: rgba(248, 246, 246, 1);
+
+}
+
+.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}

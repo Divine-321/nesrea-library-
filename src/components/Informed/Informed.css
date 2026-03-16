@@ -1,0 +1,71 @@
+.inform {
+  width: 80%;
+  margin: 0 auto;
+  background:
+    linear-gradient(rgba(34, 34, 34, 0.7), rgba(34, 34, 34, 0.7)),
+    url("../../assets/bookShelf.jpg");
+    margin-top: 4%;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 380px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2%;
+  font-family: "Inter", sans-serif;
+  gap: 30px;
+}
+
+.stay {
+  flex-basis: 40%;
+}
+
+.stay h2 {
+  font-size: 35px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: -0.76px;
+}
+
+.stay p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.sub input {
+  padding: 20px 31px;
+  border-radius: 12px;
+  border: 2px solid;
+  font-size: 16px;
+  margin-right: 15px;
+  color: var(--green-colour);
+  caret-color: var(--green-colour);
+  border: none;
+  outline: none;
+}
+
+.subscribe-btn {
+  background: var(--green-colour);
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  border: none;
+  padding: 20px 31px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.sub p {
+  font-size: 13px;
+  margin-top: 30px;
+  font-weight: 200;
+}
+
+.sub p span a {
+  text-decoration: solid underline;
+  color: white;
+}
