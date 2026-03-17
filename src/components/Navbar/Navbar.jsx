@@ -86,7 +86,7 @@ const Navbar = () => {
         <ul>
 
           <li>
-            <NavLink 
+            <NavLink onClick={() => setIsActive (false)}
               to="/" 
               className={({isActive}) => isActive ? "nav-link active" : "nav-link"}
             >
@@ -95,7 +95,7 @@ const Navbar = () => {
           </li>
 
           <li>
-            <NavLink 
+            <NavLink onClick={() => setIsActive (false)}
               to="/about"
               className={({isActive}) => isActive ? "nav-link active" : "nav-link"}
             >
@@ -104,7 +104,7 @@ const Navbar = () => {
           </li>
 
           <li>
-            <NavLink 
+            <NavLink onClick={() => setIsActive (false)}
               to="/features"
               className={({isActive}) => isActive ? "nav-link active" : "nav-link"}
             >
@@ -113,7 +113,7 @@ const Navbar = () => {
           </li>
 
           <li>
-            <NavLink 
+            <NavLink onClick={() => setIsActive (false)}
               to="/library"
               className={({isActive}) => isActive ? "nav-link active" : "nav-link"}
             >
@@ -122,7 +122,7 @@ const Navbar = () => {
           </li>
 
           <li>
-            <NavLink 
+            <NavLink onClick={() => setIsActive (false)}
               to="/resources"
               className={({isActive}) => isActive ? "nav-link active" : "nav-link"}
             >
