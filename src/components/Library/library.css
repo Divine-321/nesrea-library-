@@ -105,3 +105,64 @@
   color: #555;
   margin-top: 4px;
 }
+
+
+@media (max-width: 768px) {
+
+  .wrap {
+    width: 90%;
+  }
+
+  .wrap h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .features {
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
+
+  .num {
+    width: 100%;
+  }
+
+  .features img {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .steps {
+    gap: 35px;
+    margin-top: 20px;
+  }
+
+  .circle {
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+  }
+
+  .circle::after {
+    height: 260%;
+  }
+
+  .content h4 {
+    font-size: 15px;
+  }
+
+  .content p {
+    font-size: 13px;
+  }
+
+  .num a {
+    display: block;
+    width: 60%;
+    margin: 25px auto 0;
+    text-align: center;
+    padding: 12px 0;
+  }
+
+}

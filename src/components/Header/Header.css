@@ -10,7 +10,7 @@ header {
 
 header .wrapper {
   position: relative;
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
   padding-top: 3%;
   display: flex;
@@ -128,3 +128,4 @@ header .wrapper {
   font-weight: 400;
   font-size: 14px;
 }
+

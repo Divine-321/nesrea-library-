@@ -4,7 +4,7 @@ import { doubleArrow, frame1, frame2, frame3, leaf } from "../../assets";
 
 const About = () => {
   return (
-    <div className="about-wrapper">
+    <div className="about-wrapper" id="about">
       <div className="inner-wrap">
         <div className="frame">
           <img src={frame1} alt="" />

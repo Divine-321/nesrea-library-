@@ -114,3 +114,72 @@
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
 }
+
+@media (max-width: 768px) {
+
+  .inner-wrap {
+    flex-direction: column;
+    width: 90%;
+    gap: 30px;
+    margin-top: 24%;
+  }
+
+  .frame {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .frame img {
+    width: 30%;
+  }
+
+  .frame img:nth-child(2) {
+    transform: translateY(-10%);
+  }
+
+  .frame img:nth-child(3) {
+    transform: translateY(-20%);
+  }
+
+  .about {
+    width: 100%;
+    text-align: center;
+    gap: 18px;
+  }
+
+  .lib h2 {
+    font-size: 20px;
+  }
+
+  .big {
+    font-size: 18px;
+  }
+
+  .small {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  /* .group {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .group div {
+    width: 100%;
+  }
+
+  .one {
+    font-size: 15px;
+  } */
+
+  .about a {
+    width: 50%;
+    margin: 20px auto 0;
+    display: block;
+    padding: 12px 0;
+  }
+
+}

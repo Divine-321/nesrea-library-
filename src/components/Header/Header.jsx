@@ -11,8 +11,9 @@ import {user4} from "../../assets";
 const Header = () => {
   return (
     <header>
+      <Navbar />
       <div className="wrapper">
-        <Navbar />
+        
         <Routes>
         <Route path="/" />
         <Route path="/about" element={<h1>About Page</h1>} />

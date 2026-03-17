@@ -24,7 +24,7 @@ const Library = () => {
   ];
 
   return (
-    <div className="lib-wrapper">
+    <div className="lib-wrapper" id="feature">
       <div className="wrap">
         <h1>NESREA LIBRARY FEATURES</h1>
 

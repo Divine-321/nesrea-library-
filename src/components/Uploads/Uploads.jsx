@@ -3,7 +3,7 @@ import "./Uploads.css";
 
 const Uploads = () => {
   return (
-    <div className="upload">
+    <div className="upload" id="resources">
       <div className="latest">
         <p>Latest Uploads </p>
         <a href="#">View All Uploads {"->"}</a>

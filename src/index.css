@@ -4,6 +4,10 @@
     --footer-colour: rgba(15, 23, 42, 1);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 *, *::before, *::after {
     box-sizing: border-box;
 }
